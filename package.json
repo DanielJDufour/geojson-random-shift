@@ -2,7 +2,10 @@
   "name": "geojson-random-shift",
   "version": "0.0.0",
   "description": "Randomly Shift Coordinates in a GeoJSON",
-  "main": "index.js",
+  "main": "./index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "format": "npx prettier --print-width=180 --trailing-comma=none --write *.js",
     "setup": "cd test-data && sh setup.sh",
