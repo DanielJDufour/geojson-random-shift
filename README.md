@@ -71,7 +71,7 @@ randomShift(geojson, { range: [10, 100] });
 ```
 
 ### containing to the world
-By default randomShift double checks and makes sure to points move outside of the traditional world bounding box of [-180, -90, 180, 90].  You can turn this off by the following:
+By default points do not move outside of the traditional world bounding box of [-180, -90, 180, 90].  You can turn off this check for a minor speedup:
 ```js
 randomShift(geojson, { contain: false });
 ```
