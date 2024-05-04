@@ -1,0 +1,25 @@
+{
+  "name": "geojson-random-shift",
+  "version": "0.0.0",
+  "description": "Randomly Shift Coordinates in a GeoJSON",
+  "main": "index.js",
+  "scripts": {
+    "format": "npx prettier --print-width=180 --trailing-comma=none --write *.js",
+    "setup": "cd test-data && sh setup.sh",
+    "test": "TEST_TIMED=true node test.js"
+  },
+  "keywords": [
+    "coordinates",
+    "geojson",
+    "geospatial",
+    "gis",
+    "map",
+    "polygon",
+    "shift"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "flug": "^2.7.2"
+  }
+}
